@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is a survey form</title>
+    <link rel="stylesheet" href="Survey2.css">
+</head>
+
+<body>
+    <h1 id="title">Farewell Party Survey Form</h1>
+    <p id="description">This is a Survey Form to answer.</p>
+    <form action="#" method="post">
+
+        <fieldset id="basic-info">
+            <div class="basic-container">
+                <label for="Name">Name <input id="Name" type="text" placeholder="Enter your Name" required></label>
+                <label for="Email">Email <input id="Email" type="email" placeholder="Enter your Email" required></label>
+            </div>
+            <label for="Age">Age <input id="Age" type="number" placeholder="Age" required min="0" max="99"></label>
+        </fieldset>
+
+        <fieldset class="select-options">
+            <label id="question">Which option best describes you?</label>
+            <select>
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>School Staff</option>
+                <option>Others</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="check-box">
+            <label>What did you like about the program?</label>
+            <label><input type="checkbox"> Training</label>
+            <label><input type="checkbox"> The Learning Sessions from Industry Experts</label>
+            <label><input type="checkbox"> Community Meetups</label>
+            <label><input type="checkbox"> Brown Bag Sessions</label>
+            <label><input type="checkbox"> Switching to Hybrid Mode</label>
+            <label><input type="checkbox"> Food, Office, etc.</label>
+            <label>Any comments or suggestions <textarea> Enter your comments here...</textarea></label>
+        </fieldset>
+
+        <fieldset class="bottom-part">
+            <button class="bot-button" type="reset">Reset</button>
+            <button class="bot-button" type="submit" value="Submit">Submit</button>
+            <p>This is a made by <a href="#">John Willard Sucgang</a></p>
+        </fieldset>
+    </form>
+</body>
+</html>

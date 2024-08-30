@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 20px auto;
+}
+
+p {
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+/* for basic info */
+.basic-container input {
+    width: 80%;
+}
+/* for describe part */
+.select-options {
+    display: flex;
+    padding: 10px;
+}
+
+.select-options label {
+    margin-right: 10px;
+}
+
+.select-options select {
+    width: 40%;
+}
+
+/* textarea part of the form */
+.check-box input {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: Tahoma;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+/* for bottom part */
+button {
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.bot-button {
+    font-family: Tahoma;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.bot-button:hover {
+    transform: scale(1.05);
+}
+
+
+.bottom-part p{
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.bottom-part a{
+    color: white;
+}
+
+.bottom-part a:hover{
+    color:aqua;
+}
