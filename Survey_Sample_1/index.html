@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Practice Survey Form
+        </title>
+
+        <body>
+
+            <header>
+                <h2 class="logo">Logo</h2>
+                    <nav class="navigation">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Contact</a>
+                    </nav>
+            </header>
+
+            <h1 class="main-title">Practice Survey Form</h1>
+            
+            <div class="background">
+            </div>
+
+            <div class="form-container">
+                <form id="form">
+                    <!-- For input name -->
+                    <div class="form-control">
+                        <label for="name" id="label-name">
+                            Name
+                        </label>
+
+                        <input type="text"
+                                id="name"
+                                placeholder="Enter your name" 
+                                required/>
+                    </div>
+
+                    <!-- For input email -->   
+                    <div class="form-control">
+                        <label for="email" id="label-email">
+                            Email
+                        </label>
+                
+                        <input type="email"
+                                id="email"
+                                placeholder="Enter your Email" 
+                                required/>
+                    </div>
+
+                    <!-- For input Age -->           
+                    <div class="form-control">
+                        <label for="age" id="label-age">
+                            Age
+                        </label>
+                            
+                        <input type="text"
+                                id="age"
+                                placeholder="Enter your Age" />
+                    </div>
+
+                    <!-- For selecting roles-->
+                    <div class="form-control">
+                        <label for="role" id="label-role">
+                            Please Select your proper role
+                        </label>
+                            
+                        <select name="role" id="role">
+                            <option value="student">Student</option>
+                            <option value="intern">Intern</option>
+                            <option value="professional">Professional</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+
+                    <div class="form-control">
+                        <label>
+                            Submit the details above?
+                        </label>
+                    </div>
+                    
+                    <label for="recommend=1">
+                        <input type="radio"
+                                id="recommend-1"
+                                name="recommend-1">Yes</input>
+                    </label>
+
+                    <label for="recommend=2">
+                        <input type="radio"
+                                id="recommend-2"
+                                name="recommend-2">No</input>
+                    </label>
+
+                    <button type="submit" value="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </body>
+    </head>
+</html>
